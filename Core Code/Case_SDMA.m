@@ -116,7 +116,7 @@ for jj=1:length(Conf_.Mod)
         SDMA_.Mod_.SNR_mod1 = ((Mod1-1)/-1.6)*log(Conf_.BER/0.2);
         SDMA_.Mod_.SNR_mod2 = ((Mod2-1)/-1.6)*log(Conf_.BER/0.2);
         
-        SDMA_.Mod_.R1_aux = Conf_.BW*log2(Mod1); %modulació M1 and uncoded
+        SDMA_.Mod_.R1_aux = Conf_.BW*log2(Mod1); %modulaciÃ³ M1 and uncoded
         SDMA_.Mod_.R2_aux = Conf_.BW*log2(Mod2);
         
         SDMA_.Mod_.P1_aux = 10^((10*log10(SDMA_.Mod_.SNR_mod1)+Pathloss_.CIH+Conf_.Eff_Noise)/10);
