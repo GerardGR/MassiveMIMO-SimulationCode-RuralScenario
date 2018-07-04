@@ -6,4 +6,4 @@ In partial fulfilment of the requirements for the degree in TELECOMMUNICATIONS T
 
 Thesis Title: RESOURCE ALLOCATION FOR MULTI-USER MASSIVE MIMO SYSTEMS
 
-The simulation code refers to the first scenario for a Rural Macro Environment (RMa): "System evaluation for symmetric users". The simulation code has been fully developed in Matlab.
+The simulation code provided refers to the first scenario for a Rural Macro Environment (RMa): "System evaluation for symmetric users". It has been fully developed in Matlab.
