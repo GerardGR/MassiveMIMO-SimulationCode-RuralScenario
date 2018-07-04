@@ -8,7 +8,7 @@ tic;
 %%
 
 MMIMO_SDMA_.G_function_.phi_v = 0:0.01:2*pi;    %% Angle of interfering UE 
-MMIMO_SDMA_.G_function_.sigma_ref = pi/6;       %% Reference angle: 30บ
+MMIMO_SDMA_.G_function_.sigma_ref = pi/6;       %% Reference angle: 30ยบ
 MMIMO_SDMA_.G_function_.sigma_v = zeros(1,21);  %% Angle of interfering UE
 
 G_M1 = zeros(length(MMIMO_SDMA_.G_function_.sigma_v),length(MMIMO_SDMA_.G_function_.phi_v));
